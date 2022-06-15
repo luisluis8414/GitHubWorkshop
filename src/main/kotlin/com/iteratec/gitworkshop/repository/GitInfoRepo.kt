@@ -8,8 +8,7 @@ class GitInfoRepo {
 
     val endpointList: List<String> = listOf("gitCommitAmend", "gitRebase");
 
-    fun getInfoAmend(): CommandDescription
-    {
+    fun getInfoAmend(): CommandDescription {
         return CommandDescription(
                 "Git Commit Amend",
                 "git commit --amend",
